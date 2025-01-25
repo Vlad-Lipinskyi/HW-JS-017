@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "gh-pages": "^6.3.0",
+    "parcel": "^2.13.3"
+  },
+  "name": "hw-js-017",
+  "version": "1.0.0",
+  "description": "",
+  "devDependencies": {},
+  "scripts": {
+    "start": "npx parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vlad-Lipinskyi/HW-JS-017.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Vlad-Lipinskyi/HW-JS-017/issues"
+  },
+  "homepage": "https://github.com/Vlad-Lipinskyi/HW-JS-017#readme"
+}
