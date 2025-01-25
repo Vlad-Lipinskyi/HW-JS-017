@@ -1,0 +1,2 @@
+let e=1;const t=document.querySelector(".list"),c=document.querySelector(".button"),a=e=>{e.hits.forEach(e=>{let c=document.createElement("li"),a=document.createElement("img");c.classList.add("item"),a.classList.add("image"),a.src=e.webformatURL,t.append(c),c.append(a)})};c.addEventListener("click",t=>{d(e+=1)});const d=e=>fetch(`https://pixabay.com/api/?key=48435087-ff3fc40d69888c64b11d73d2d&q=blue+flowers&image_type=photo&per_page=3&page=${e}`).then(e=>e.json()).then(e=>a(e));
+//# sourceMappingURL=index.5928c2fc.js.map
